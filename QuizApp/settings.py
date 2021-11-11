@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'quiz',
 
 ]
 
@@ -77,7 +78,7 @@ WSGI_APPLICATION = 'QuizApp.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': '',
+        'NAME': 'quizapp',
         'USER': 'root',
         'PASSWORD': '',
         'HOST': 'localhost',
