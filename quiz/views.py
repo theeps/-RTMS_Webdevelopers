@@ -51,7 +51,7 @@ def home(request):
         context = {
             'questions': questions
         }
-        return render(request, 'Home.html', context)
+        return render(request, 'Homee.html', context)
 
 
 def addQuestion(request):
